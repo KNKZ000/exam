@@ -1,0 +1,5 @@
+
+var arr=["Hello","World"]
+var [first,second]=arr;
+console.log(first);
+console.log(second);

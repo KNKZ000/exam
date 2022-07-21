@@ -1,0 +1,6 @@
+let sum=(x,y)=>
+{
+    c=x+y;
+    console.log("The sum is "+c);
+}
+sum(7,2);

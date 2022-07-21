@@ -1,0 +1,8 @@
+function array()
+{
+    return [1,2,3];
+}
+var[x,y,z]=array();
+console.log(x);
+console.log(y);
+console.log(z);

@@ -1,0 +1,15 @@
+function* generator()
+{
+    yield 1;
+    yield 2;
+}
+function* generator2()
+{
+    yield 3;
+    yield* generator();
+    yield 4;
+}
+for(let value of generator2())
+{
+    console.log(value);
+}
